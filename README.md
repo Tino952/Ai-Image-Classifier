@@ -1,6 +1,9 @@
 # Image-Classifier
-Image Classifier in Pytorch using pre-trained neural networks (Densenet / VGG)
+Image Classifier in Pytorch using pre-trained neural networks.
 
 This project involves reading in a folder of various flower images in order to train a pre-trained neural network from Torchvision. The goal
-is to achieve a prediction accuracy exceeding 70%. I have included the python files as well as an ipynb file to Jupyter Notebooks. The order
-of the command line scripts is to run train.py followed by predict.py (utilities and model are auxilliary scripts). 
+is to achieve a prediction accuracy exceeding 70%. I have included the python files as well as an ipynb file to jupyter notebooks. The order
+of the command line scripts is to run train.py followed by predict.py (utilities and model are auxilliary scripts). The command line application
+has the option of either the Densenet121 or the VGG16 models. The jupyter notebook only draws on the Densenet121 model.
+
+The set up of the folders with the images is the following: there are three folders with the path 'user/
