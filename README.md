@@ -6,4 +6,6 @@ is to achieve a prediction accuracy exceeding 70%. I have included the python fi
 of the command line scripts is to run train.py followed by predict.py (utilities and model are auxilliary scripts). The command line application
 has the option of either the Densenet121 or the VGG16 models. The jupyter notebook only draws on the Densenet121 model.
 
-The set up of the folders with the images is the following: there are three folders with the path 'user/
+The set up of the folders with the images is the following: there are three folders with the path 'user/flowers' followed by '/train', '/test', or '/valid'.
+Each of theese folders contains 102 subfolders labeled numerically (i.e. from 1-102; see JSON file for mapping to flower names) with various jpg images of a 
+certain flower type within each folder.
